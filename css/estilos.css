@@ -1,13 +1,18 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-header{
+  padding: 0;
+  margin: 0;
+}
+
+header {
   display: block;
 }
-  
-  
-.row{
+
+.row {
   margin: 8vw;
 }
+
+.a {
+  text-decoration-color: black;
+}
+
+/*# sourceMappingURL=estilos.css.map */
