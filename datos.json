@@ -1,14 +1,14 @@
 [
     {
-        "nombreProducto": "poleron",
-        "cantidad": 3
+    "nombreProducto":"poleron",
+    "cantidad":3
     },
     {
-        "nombreProducto": "pantalon ",
-        "cantidad": 3
+    "nombreProducto":"pantalon ",
+    "cantidad":3
     },
     {
-        "nombreProducto": "zapatos",
-        "cantidad": 5
+    "nombreProducto":"zapatos",
+    "cantidad":5
     }
-]
+    ]
