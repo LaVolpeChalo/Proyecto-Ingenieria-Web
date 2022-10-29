@@ -1,14 +1,14 @@
 [
     {
-    "nombreProducto":"poleron",
+    "nombreProducto":"Cuerpo Arriba",
     "cantidad":3
     },
     {
-    "nombreProducto":"pantalon ",
+    "nombreProducto":"Cuepo Abajo ",
     "cantidad":3
     },
     {
-    "nombreProducto":"zapatos",
+    "nombreProducto":"Zapatos",
     "cantidad":5
     }
     ]
