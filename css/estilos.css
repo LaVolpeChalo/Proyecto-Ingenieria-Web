@@ -15,4 +15,11 @@ a {
   color: black;
 }
 
+#add_venta_container{
+  margin-top: 100vw;
+  margin-right: 100vw;
+  margin-bottom: 100vw;
+  margin-left: 100vw;
+}
+
 /*# sourceMappingURL=estilos.css.map */
