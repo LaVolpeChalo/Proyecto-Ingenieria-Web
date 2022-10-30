@@ -1,0 +1,12 @@
+[
+    {
+        "nombreProducto":"Polera hombre azul",
+        "pago":"Efectivo y tarjeta",
+        "cantidad":"5"
+    },
+    {
+        "nombreProducto":"Chaleco hombre rojo",
+        "pago":"Solo efectivo",
+        "cantidad":"3"
+    }
+]
