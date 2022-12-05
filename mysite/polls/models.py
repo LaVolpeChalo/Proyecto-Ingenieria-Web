@@ -27,9 +27,12 @@ class Vendedor(models.Model):
 
 class Producto(models.Model):
     nombreVendedor = models.ForeignKey(Vendedor, on_delete=models.CASCADE)
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
     nombreProducto = models.CharField(max_length=200)
     cantidad = models.IntegerField(default=0)
     def __str__(self):
         return self.nombreProducto
     def __num__(self):
         return self.cantidad
+
+        
