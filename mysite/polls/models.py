@@ -19,3 +19,17 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
     def __str__(self):
         return self.choice_text
+
+class Vendedor(models.Model):
+    nombreVendedor=models.CharField(max_length=20)
+    def __str__(self):
+        return self.nombreVendedor
+
+class Producto(models.Model):
+    nombreVendedor = models.ForeignKey(Vendedor, on_delete=models.CASCADE)
+    nombreProducto = models.CharField(max_length=200)
+    cantidad = models.IntegerField(default=0)
+    def __str__(self):
+        return self.nombreProducto
+    def __num__(self):
+        return self.cantidad
